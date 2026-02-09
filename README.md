@@ -8,7 +8,7 @@
 ## Deploy the application
 1. Create the Deployment:
 ```bash
-kubectl create deploy <deployment-name> --image=krishnasecops/pythonapp:latest -n <namespace>
+kubectl create deploy <deployment-name> --image=krishnasecops/pythondbapp:latest -n <namespace>
 ```
 
 2. Expose the Deployment via a LoadBalancer service on port 5000:
